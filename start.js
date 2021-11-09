@@ -37,7 +37,7 @@ nocache('./handler.js', module => console.log(`${module} Telah Di Perbarui Silah
 const start = async (sesi) => {
 	const fzn = new WAConnection()
 	global.fzn = fzn
-	fzn.browserDescription = ['Fazone','browser','9999']
+	fzn.browserDescription = ['Syahri','browser','9999']
 	fzn.version = [2, 2140, 12]
     fzn.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), 'SCAN QR TO CONNECT')
