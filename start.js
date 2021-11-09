@@ -38,7 +38,7 @@ const start = async (sesi) => {
 	const fzn = new WAConnection()
 	global.fzn = fzn
 	fzn.browserDescription = ['Fazone','browser','9999']
-	fzn.version = [2, 2119, 6]
+	fzn.version = [2, 2140, 12]
     fzn.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), 'SCAN QR TO CONNECT')
     })
